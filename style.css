@@ -1,82 +1,69 @@
 *{
     margin:0;
     padding:0;
-}
-
-
-body{
-    background-color: #548687;
     text-align: center;
 
 }
-.container{
-    height:70vh;
-display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+
+h1{
+    background-color: #081b31;
+    color:#fff;
+    height:5rem;
+    line-height:  5rem;
+
+
 }
 
-.game{
-    height:60vmin;
-    width:60vmin;
+.choice{
+    height:160px;
+    width:160px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
+
+img{
+    height:150px;
+    width:150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choices{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap:1.5vmin;
+    margin-top: 5rem;
+    text-align: center;
+    gap:3rem;
+}
+.choice:hover{
+    background-color: #081b31;
 }
 
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap:5rem;
+}
+#user-score,#comp-score{
+    font-size: 4rem;
 
+}
+.msg-container{
+    margin-top: 5rem;
+}
 
-.box{
-    height:18vmin;
-        width:18vmin;
-        border: none;
+#msg{
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding : 1rem;
      border-radius: 1rem;
-        box-shadow: 0 0 1rem rgba(0,0,0,0.3);
-        font-size: 8vmin;
-        color:#b0413e;
-        background-color: #ffffc7;
 
-}
-
-#reset-button{
-        padding:1rem;
-        font-size: 1.25rem;
-        border-radius: 1rem;
-        color:#fff;
-     border: none;
-    background-color: #191913;
-
-
-
-}
-
-#new-btn{
-       padding:1rem;
-        font-size: 1.25rem;
-        border-radius: 1rem;
-        color:#fff;
-     border: none;
-    background-color: #191913;
-
-
-
-}
-.message{
-    color: #ffffc7;
-    font-size: 5vmin;
-}
-.msgContainer{
-height:100vmin;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-gap:4rem;
-
-}
-.hide{ 
-    display: none;
 }
